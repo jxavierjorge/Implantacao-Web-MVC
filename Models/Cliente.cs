@@ -5,7 +5,7 @@ public class Cliente
     public int Id { get; set; }
 
     public string? Nome { get; set; }
-    public string? CPF { get; set; }
+    public string? Cpf { get; set; }
     public string? Email { get; set; }
     public string? Paciente { get; set; }
 
@@ -13,7 +13,7 @@ public class Cliente
     {
         this.Id = id;
         this.Nome = nome;
-        this.CPF = cpf;
+        this.Cpf = cpf;
         this.Email = email;
         this.Paciente = paciente;
     }

@@ -31,6 +31,8 @@ public class HomeController : Controller
         listaClientes.Add(c4);
         listaClientes.Add(c5);
 
+        ViewBag.listaClientes = listaClientes;
+
         // instancias do tipo fornecedor
 
         Fornecedor f1 = new Fornecedor(01, "C# PET S/A", "14.182.102/0001-80", "c-sharp@pet.org");
@@ -47,6 +49,8 @@ public class HomeController : Controller
         listaFornecedores.Add(f3);
         listaFornecedores.Add(f4);
         listaFornecedores.Add(f5);
+
+        ViewBag.listaFornecedores = listaFornecedores;
 
 
         return View();
